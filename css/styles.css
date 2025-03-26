@@ -1,0 +1,105 @@
+.q-notifications {
+    display: none;
+}
+
+/* Remove number incrementors  */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+/* Text fields */
+
+.input-field-container {
+    padding: 0px 8px !important;
+}
+
+.input-field-container input[type="text"] {
+    background: transparent !important;
+    border: none !important;
+}
+
+.input-field-container .textInput {
+    width: 100% !important;
+}
+.input-field-container label {
+    margin-top: -2px !important;
+}
+.input-field-container .q-field__control {
+    height: auto !important;
+    padding: 0 5px !important;
+}
+
+.input-field-container .q-field__control:hover:before {
+    opacity: 0 !important;
+}
+.input-field-container .q-field__control:before {
+    opacity: 0 !important;
+}
+.input-field-container .q-field--filled.q--field--highlighted .q-field__control:before {
+    opacity: 0 !important;
+    background: rgba(255, 0, 0) !important;
+}
+
+/* Address - Multiline */
+.input-field-textarea-container {
+    max-height: none;
+    padding: 8px 8px;
+}
+.input-field-textarea-container input [type="text"] {
+    background: transparent !important;
+    border: none !important;
+}
+
+.input-field-textarea-container .messageInput {
+    width: 100% !important;
+}
+.input-field-textarea-container label {
+    margin-top: -2px !important;
+}
+.input-field-textarea-container .q-field__control {
+    height: auto !important;
+    padding: 0 0px !important;
+}
+
+.input-field-textarea-container .q-field__control:hover:before {
+    opacity: 0 !important;
+}
+.input-field-textarea-container .q-field__control:before {
+    opacity: 0 !important;
+}
+.input-field-textarea-container .q-field--filled.q--field--highlighted .q-field__control:before {
+    opacity: 0 !important;
+    background: rgba(255, 0, 0) !important;
+}
+
+.input-field-textarea-container .q-textarea .q-field__native {
+    padding: 6px !important;
+}
+
+/* Radio buttons */
+
+.select-field-parent-container .q-radio__bg {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+}
+.select-field-parent-container .q-radio__inner {
+    color: #e20000 !important;
+}
+
+.q-radio__label {
+    padding-left: 8px;
+}
+
+/* Modal section */
+.modal-section {
+    display: block;
+}
